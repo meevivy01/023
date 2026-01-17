@@ -95,8 +95,8 @@ if os.path.exists(CLIENTS_PATH):
 
 # --- TARGET CONFIG ---
 TARGET_UNIVERSITIES = ["พระนคร", "Phranakhon"]  
-TARGET_FACULTIES = ["เครื่องสำอาง","Cosmetic Science"] 
-TARGET_MAJORS = ["เครื่องสำอาง", "วิทยาศาสตร์เครื่องสำอาง","Cosmetic Science", "Cosmetics", "Cosmetic"]
+TARGET_FACULTIES = ["เครื่องสำอาง","Cosmetic"] 
+TARGET_MAJORS = ["เครื่องสำอาง", "Cosmetics", "Cosmetic"]
 SEARCH_KEYWORDS = ["Cosmetic Phranakhon Rajabhat"]
 
 # --- 🟢 เพิ่มชุดนี้ไว้ใต้ SEARCH_KEYWORDS ---
@@ -1691,5 +1691,6 @@ if __name__ == "__main__":
         exit()
     scraper = JobThaiRowScraper()
     scraper.run()
+
 
 
